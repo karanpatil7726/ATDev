@@ -1,0 +1,24 @@
+GET ALL     === http://localhost:9095/api/students/
+GET Student === http://localhost:9095/api/students/{Id}
+
+POST === http://localhost:9095/api/students/
+
+Json:
+{
+    "name":"Sassy Patil",
+    "city":"Am",
+    "age":25
+}
+
+PUT ===http://localhost:9095/api/students/{Id}
+
+Json:
+{
+    "name":"Meetal Singare",
+    "city":"Pune",
+    "age":27
+}
+
+DELETE ===http://localhost:9095/api/students/29
+
+
